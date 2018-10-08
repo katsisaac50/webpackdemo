@@ -14,12 +14,14 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-         contentBase: './dist'
+         contentBase: './dist',
+         hot: true
        },
   plugins: [
     new CleanWebpackPlugin(['dist']),
          new HtmlWebpackPlugin({
            title: 'Output Management'
-         })
+         }),
+         new webpack.HotModuleReplacementPlugin()
        ],
 };
