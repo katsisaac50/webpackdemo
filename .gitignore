@@ -1,3 +1,4 @@
 node_modules
 dist
 dist/main.js//this can be removed as dist is added
+dist/index.html
