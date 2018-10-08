@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open",
+    "server": "node server.js",
     "start1": "webpack --config webpack.config.js",
     "build": "webpack"
   },
