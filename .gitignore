@@ -1,2 +1,3 @@
 node_modules
-dist/main.js
+dist
+dist/main.js//this can be removed as dist is added
